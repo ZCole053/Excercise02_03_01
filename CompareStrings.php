@@ -11,9 +11,13 @@
 <body>
     <h2>Compare Strings</h2>
     <?php 
+    //variables 
     $firstString = "Geek2Geek";
     $secondString = "Geezer2Geek";
+
+    //test to see if there is string
     if(!empty($firstString) && !empty($secondString)){
+        //nested if else to compare the string
         if($firstString == $secondString){
             echo "<p>Both strings are the same.</p>";
         }else{
